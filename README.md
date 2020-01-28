@@ -5,3 +5,5 @@ People are standing in a circle waiting to be executed. Counting begins at a spe
 
 The problem — given the number of people, starting point, direction, and number to be skipped — is to choose the position in the initial circle to avoid execution.
 
+Math Formula:
+If there is an addition of x people to the circle, then the survivor is in the p + mx-th position if this is less than or equal to n + x. If x is the smallest value for which (p + mx) > (n + x), then the survivor is in position (p + mx) − (n + x).
